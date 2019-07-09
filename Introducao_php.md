@@ -29,7 +29,7 @@ Exemplo:
 
 Utilizamos o separador `'<br>'.PHP_EOL` para formar uma quebra de linha. 
 
-    PHP_EOL representa uma quebra de linha (end of line). 
+PHP_EOL representa uma quebra de linha (end of line). 
 
     Ex: '\n'.                       
 
