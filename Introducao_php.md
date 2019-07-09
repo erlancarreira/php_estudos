@@ -5,15 +5,18 @@
 Representados por `//, #, /* */`    
 
 Para comentar uma unica linha
+    
     `// echo "Comentario de uma linha";`
     
     `#  echo "Comentario de uma linha";`
         
 Para comentar muitas linhas
+    
     `/* echo "Comentario de multiplas linhas";`
     
     `echo "Novo comentario"; */`
-Comandos de saida (output)
+
+#### Comandos de saida (output)
         
 Sao os comandos utilizados para gerar uma saida em tela (output). 
 Se o programa PHP for executado na linha de comando (prompt do sistema), 
