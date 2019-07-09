@@ -10,6 +10,7 @@ Locais mais comuns:
     
 #### phpinfo.php
 Função para exibir um relatório de todas as configurações atuais do PHP 
+    
     phpinfo() 
         
         
