@@ -11,7 +11,11 @@ Introducao ao PHP
                echo "Novo comentario"; */
     Comandos de saida (output)
         
-        Sao os comandos utilizados para gerar uma saida em tela (output). Se o programa PHP for executado na linha de comando (prompt do sistema), a saida sera no proprio console. No entanto, se o programa for executado via servidor de paginas web (Apache, Nginx), a saida sera exibida na propria pagina HTML.
+        Sao os comandos utilizados para gerar uma saida em tela (output). 
+        Se o programa PHP for executado na linha de comando (prompt do sistema), 
+        a saida sera no proprio console. 
+        No entanto, se o programa for executado via servidor de paginas web (Apache, Nginx), 
+        a saida sera exibida na propria pagina HTML.
 
         echo
             
@@ -34,7 +38,12 @@ Introducao ao PHP
 
         var_dump
             
-            E uma funcao que imprime o conteudo de uma variavel de forma detalhada, muito comum para executar um debug. Se o parametro for um objeto, ele imprimira todos os seus atributos; se for um array de varias dimensoes, imprimira todas elas, com seus respectivos conteudos e os tipos de dados. Exemplo:
+            E uma funcao que imprime o conteudo de uma variavel de forma detalhada, 
+            muito comum para executar um debug. 
+            Se o parametro for um objeto, ele imprimira todos os seus atributos; 
+            se for um array de varias dimensoes, imprimira todas elas, 
+            com seus respectivos conteudos e os tipos de dados. 
+            Exemplo:
 
             $vetor = array('Palio', 'Gol', 'Fiesta', 'Corsa');
 
