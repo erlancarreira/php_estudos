@@ -1,15 +1,17 @@
 # Introducao ao PHP
 
-#### Comentarios 
+#### Comentários 
         
 Representados por `//, #, /* */`    
 
 Para comentar uma unica linha
     `// echo "Comentario de uma linha";`
+    
     `#  echo "Comentario de uma linha";`
         
 Para comentar muitas linhas
     `/* echo "Comentario de multiplas linhas";`
+    
     `echo "Novo comentario"; */`
 Comandos de saida (output)
         
@@ -55,7 +57,7 @@ Exemplo:
 #### print_r  
     
 É uma função que imprime o conteúdo de uma variável de forma detalhada, 
-assim como a `var_dump()`, mas em um formato mais legivel para o programador, 
+assim como a `var_dump()`, mas em um formato mais legível para o programador, 
 com os conteúdos alinhados e suprimindo os tipos de dados. 
 Exemplo:
     
