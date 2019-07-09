@@ -6,15 +6,15 @@ Representados por `//, #, /* */`
 
 Para comentar uma unica linha
     
-    `// echo "Comentario de uma linha";`
+    // echo "Comentario de uma linha";
     
-    `#  echo "Comentario de uma linha";`
+    #  echo "Comentario de uma linha";
         
 Para comentar muitas linhas
     
-    `/* echo "Comentario de multiplas linhas";`
+    /* echo "Comentario de multiplas linhas";
     
-    `echo "Novo comentario"; */`
+    echo "Novo comentario"; */
 
 #### Comandos de saida (output)
         
