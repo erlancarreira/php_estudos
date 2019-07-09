@@ -2,6 +2,8 @@ Introducao ao PHP
 
     Comentarios 
         
+        Representados por //, #, /* */
+
         Para comentar uma unica linha
             // echo "Comentario de uma linha";
             #  echo "Comentario de uma linha";
@@ -9,6 +11,7 @@ Introducao ao PHP
         Para comentar muitas linhas
             /* echo "Comentario de multiplas linhas";
                echo "Novo comentario"; */
+
     Comandos de saida (output)
         
         Sao os comandos utilizados para gerar uma saida em tela (output). 
@@ -55,6 +58,8 @@ Introducao ao PHP
             assim como a var_dump(), mas em um formato mais legivel para o programador, 
             com os conteudos alinhados e suprimindo os tipos de dados. 
             Exemplo:
+            
             $vetor = array('Palio', 'Gol', 'Fiesta', 'Corsa')
+            
             print_r($vetor);     
                       
