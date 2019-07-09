@@ -21,7 +21,7 @@
         <p>log_errors = On</p>
         <p>error_log  = /tmp/php_errors.log</p>
 
-    <p>Aumentar o limite de memoria em MB e tempo de exercucao maximo de cada script
+    <p>Aumentar o limite de memoria em MB e tempo de exercucao maximo de cada script</p>
         <p>memory_limit    = 256M<p>
         <p>max_execution_time = 120</p>
 
