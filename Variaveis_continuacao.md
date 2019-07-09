@@ -8,7 +8,7 @@
     Em alguns casos, precisamos ter em nosso código-fonte nomes de variáveis 
     que podem mudar de acordo com determinada situação. Nesse caso, não só o conteúdo
     da variável é mutável, mas também seu nome. Para isso o PHP implementa o conceito de variáveis
-    variantes (variable variable). Sempre que utilizamos dois sinais de cifrão _($$)_ 
+    variantes (variable variable). Sempre que utilizamos dois sinais de cifrão **($$)** 
     precedendo o nome de uma variável, o PHP irá refenciar uma variável 
     representada pelo conteúdo da primeira. Neste exemplo, usamos esse recurso 
     quando declaramos a variável `$nome (conteúdo de $variavel) conteúdo 'maria'`.
