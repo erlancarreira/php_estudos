@@ -16,13 +16,13 @@ Para comentar muitas linhas
     
     echo "Novo comentario"; */
 
-#### Comandos de saida (output)
+#### Comandos de saída (output)
         
-Sao os comandos utilizados para gerar uma saida em tela (output). 
+São os comandos utilizados para gerar uma saida em tela (output). 
 Se o programa PHP for executado na linha de comando (prompt do sistema), 
-a saida sera no proprio console. 
-No entanto, se o programa for executado via servidor de paginas web (Apache, Nginx), 
-a saida sera exibida na propria pagina HTML.
+a saida será no proprio console. 
+No entanto, se o programa for executado via servidor de páginas web (Apache, Nginx), 
+a saída será exibida na propria página HTML.
 
 #### echo
             
