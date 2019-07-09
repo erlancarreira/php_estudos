@@ -1,10 +1,10 @@
 # Variáveis
     
-    Variáveis são identificadoes utilizados para representar valores mutáveis e voláteis 
-    que só existem durante a execução de um programa. 
-    São armazenadas na memória RAM, e seu conteúdo é destruído após a execução do programa.
-    Para criar uma variável em PHP, precisamos atribuir-lhe o nome de identificação, 
-    sempre precendido pelo caractere cifrão ($). 
+Variáveis são identificadoes utilizados para representar valores mutáveis e voláteis 
+que só existem durante a execução de um programa. 
+São armazenadas na memória RAM, e seu conteúdo é destruído após a execução do programa.
+Para criar uma variável em PHP, precisamos atribuir-lhe o nome de identificação, 
+sempre precendido pelo caractere cifrão ($). 
     
     Veja os exemplos a seguir:
     
