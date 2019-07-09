@@ -27,6 +27,7 @@ a saida sera exibida na propria pagina HTML.
 #### echo
             
 É um comando que imprime uma ou mais variáveis no console. 
+
 Exemplo: 
 
     echo 'a' . '<br>' . PHP_EOL;
@@ -40,7 +41,8 @@ PHP_EOL representa uma quebra de linha (end of line).
 
 #### print 
             
-É um comando que imprime uma string no console. Exemplo:
+É um comando que imprime uma string no console. 
+Exemplo:
             
     print 'abc';
 
@@ -51,6 +53,7 @@ muito comum para executar um debug.
 Se o parametro for um objeto, ele imprimira todos os seus atributos; 
 se for um array de varias dimensões, imprimirá todas elas, 
 com seus respectivos conteúdos e os tipos de dados. 
+
 Exemplo:
 
     $vetor = array('Palio', 'Gol', 'Fiesta', 'Corsa');
@@ -62,6 +65,7 @@ Exemplo:
 É uma função que imprime o conteúdo de uma variável de forma detalhada, 
 assim como a `var_dump()`, mas em um formato mais legível para o programador, 
 com os conteúdos alinhados e suprimindo os tipos de dados. 
+
 Exemplo:
     
     $vetor = array('Palio', 'Gol', 'Fiesta', 'Corsa')
