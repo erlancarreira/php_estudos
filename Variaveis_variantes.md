@@ -1,4 +1,4 @@
-* Variáveis
+# Variáveis
   
     Com exceção de nomes de classes e funções, o PHP é case sensitive, 
     ou seja, é sensível a letras maiúsculas e minúsculas.
