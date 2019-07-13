@@ -1,6 +1,6 @@
 # Variáveis Tipo
 
-Um booleano expressa um valor lógico que pode ser verdadeiro ou falso. Para especificar um valor booleano, utilize as palavras-chave `TRUE ou FALSE`. No exemplo a seguir declaramos a vriável booleana $exibir_nome, cujo conteúdo é `TRUE` (verdadeiro). Em seguida, testaremos o conteúdo dessa variável para verificar se ela é realmente verdadeira. Em caso positivo, será exibido na tela o nome "José da Silva".
+Um booleano expressa um valor lógico que pode ser verdadeiro ou falso. Para especificar um valor booleano, utilize as palavras-chave `TRUE ou FALSE`. No exemplo a seguir declaramos a variável booleana $exibir_nome, cujo conteúdo é `TRUE` (verdadeiro). Em seguida, testaremos o conteúdo dessa variável para verificar se ela é realmente verdadeira. Em caso positivo, será exibido na tela o nome "José da Silva".
 
     <?php 
     $exibir_nome = TRUE; // declara variável com valor TRUE
@@ -30,6 +30,22 @@ logo em seguida para a impressão da string "Vai chover".
     if ($vai_chover) {
     	echo 'Vai chover';
     }
+
+#### Resultado
+    Vai chover
+
+Também são considerados valores falsos em comparações booleanas:
+
+    - Inteiro 0.
+    - Ponto flutuante 0.0.
+    - Uma string vazia "" ou "0".
+    - Um array vazio.
+    - Um objeto sem elementos.
+    - NULL
+
     
+
+
+
 
 
