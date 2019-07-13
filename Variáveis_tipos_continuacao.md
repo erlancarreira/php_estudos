@@ -25,7 +25,7 @@ Uma string é uma cadeia de caracteres alfanúmericos. Para declará-la, podemos
 Array é uma lista de valores armazenados na memória que podem ser de tipos
 diferentes (números, strings, objetos) e podem ser acessados a qualquer momento, 
 pois cada valor é relacionado a uma chave. Um array também pode crescer dinamicamente
-com a adição de novo itens. 
+com a adição de novos itens. 
 
     <?php 
     $carros = array('Palio', 'Corsa', 'Gol');
@@ -38,7 +38,7 @@ Um objeto é uma entidade com um determinado comportamento definido por seus mé
 Neste exemplo criamos um objeto plano `(stdClass)` e atribuímos algumas propriedades para ele.
 
     <?php
-    $carro = new stdClass;
+    $carro         = new stdClass;
     $carro->modelo = 'Palio';
     $carro->ano    = 2002;
     $carro->cor    = 'Azul';
@@ -67,8 +67,10 @@ de banco de dados. Quando as funções `mysql_connect()` e `pg_connect()`,
 por exemplo, são conectadas ao banco de dados, 
 retornam uma variável de referência do tipo recurso.
      
-    resource mysql_connect ([ string $server [, string $username [, string $password [, bool $new_link [, int $client_flags ]]]]] )
-    resource pg_connect ( string $connection_string )
+    resource mysql_connect 
+    ([ string $server [, string $username [, string $password [, bool $new_link [, int $client_flags ]]]]] )
+    resource pg_connect 
+    ( string $connection_string )
 
 `Observação:` uma variável do tipo recurso não pode ser serializada.
 
