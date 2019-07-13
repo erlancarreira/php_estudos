@@ -58,7 +58,7 @@ qualquer alteração em qualquer uma das variáveis reflete na outra.
 
     $b = 10;
 
-    echo $a;  // resultado = 5
+    echo $a;  // resultado = 10
 
     echo ' '; // espaço
 

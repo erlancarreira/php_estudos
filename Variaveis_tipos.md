@@ -41,7 +41,7 @@ Também são considerados valores falsos em comparações booleanas:
     - Uma string vazia "" ou "0".
     - Um array vazio.
     - Um objeto sem elementos.
-    - NULL
+    - NULL.
 
     
 
