@@ -24,7 +24,7 @@ e integer, e o resultado é uma string (teste5). Em seguida, somamos duas string
 que foram automaticamente convertidas para numérico, resultando em (15).
     
     <?php
-    var_dump('teste', . 5);
+    var_dump('teste' . 5);
     var_dump('5' + '10');
 
 ##### Resultado: 
