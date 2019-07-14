@@ -34,5 +34,5 @@ de tipagem, conforme apresentado no output.
 `A cláusula strict é definida no arquivo em que a chamada da função é realizada,
 e não no arquivo em que ela é definida. Assim, se tivéssemos dividido a 
 execução em dois arquivos, onde um fosse responsável pela definição da função
-calcula_imc() e outro pelo require e sua chamada, para que o `strict_types` tivesse
+calcula_imc() e outro pelo require e sua chamada, para que o strict_types tivesse
 efeito, ele deveria ser definido no arquivo em que a função foi chamada. `    
