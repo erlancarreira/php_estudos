@@ -111,3 +111,35 @@ não é possível:
 ##### Resultado: 
     Fatal error: Uncaught TypeError: Return value of calcula_imc() must be 
     of the type array, float returned
+
+Também é possível definir o tipo de retorno como void. Neste caso, a função deve somente executar algo, mas não retornar. Caso ela retorne algo, um erro fatal ocorrerá, 
+como no exemplo a seguir:
+     
+    <?php
+    function registra_log($mensagem): void {
+        file_put_contents('/tmp/system.log', $mensagem . "\n", FILE_APPEND);
+        return true;
+    }
+
+    registra_log('teste');
+
+##### Resultado:
+    Fatal error: A void function must not return a value in ...
+
+Como você poderia imaginar, não é qualquer palavra que é válida na declaração 
+de tipo. Você pode usar `bool, float, int, string, array, callable, self` 
+e o nome de uma classe. No entanto não pode usar aliases como `integer ou boolean`.
+Caso tente usar um destes, por exemplo, "boolean", quando o tipo correto é "bool",
+um erro será lançado, pois o PHP achará que você está especificando o nome de 
+uma classe (instance of boolean) que, nesse caso, não existe.
+    
+    <?php 
+    function usar_tipo_errado(boolean $teste) {
+        var_dump($teste);
+    }
+
+    usar_tipo_errado(true);
+
+##### Resultado:
+    Fatal error: Uncaught TypeError: Argument 1 passed to usar_tipo_errado() must be an
+    instance of boolean, boolean given
