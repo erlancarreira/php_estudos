@@ -4,11 +4,11 @@ Operadores aritméticos são usados para se fazer cálculos matemáticos.
 
 Operadores | Descrição
 ---------- | --------- 
-/`+        | Adição
-/`-        | Substração
-/`*        | Multiplicação
-/`/        | Divisão
-/`%        | Módulo (resto da divisão)
+`+`        | Adição
+`-`        | Substração
+`*`        | Multiplicação
+`/`        | Divisão
+`%`        | Módulo (resto da divisão)
 
 Em cálculos complexos, procure usar parêtenses, sempre observando as prioridades
 aritméticas. Por exemplo:
