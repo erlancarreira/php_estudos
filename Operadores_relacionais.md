@@ -19,11 +19,12 @@ o operador sempre retorna o valor atribuído.
      
     <?php 
     if ($a = 5) {
-    	echo 'essa operação 5 é à variável $a';
+    echo 'essa operação 5 é à variável $a';
     }
 
 #### Resultado:
 **essa operação atribui 5 à variável $a**
+___
 
 No exemplo a seguir, declaramos duas variáveis, uma integer e outra string. 
 Neste caso, vemos a utilização dos operadores de comparação == e !=.
@@ -33,15 +34,16 @@ Neste caso, vemos a utilização dos operadores de comparação == e !=.
     $b = '1234';
 
     if ($a == $b) {
-    	echo '$a e $b são iguais';
+    echo '$a e $b são iguais';
     }
 
     else if ($a != $b) {
-    	echo '$a e $b são diferentes';
+    echo '$a e $b são diferentes';
     }
 
 #### Resultado:
 $a e $b são iguais
+___
 
 No próximo caso, além da comparação entre as variáveis, comparamos também
 os tipos de dados das variáveis.
@@ -51,20 +53,21 @@ os tipos de dados das variáveis.
     $d = '1234';
 
     if ($c === $d) {
-    	echo '$c e $d são iguais e do mesmo tipo';
+    echo '$c e $d são iguais e do mesmo tipo';
     }
 
 
     if ($c !== $d) {
-    	echo '$c e $d são de tipos diferentes';
+    echo '$c e $d são de tipos diferentes';
     
 #### Resultado: 
 $c e $d são de tipos diferentes
+___
 
 O PHP considera o valor zero como falso em comparações lógicas. Para evitar erros
 semânticos em retorno de valores calculados por funções que podem retornar tanto
 um valor booleano quanto um inteiro, podemos utilizar as seguintes comparações:
-     
+```php     
     <?php 
     $e = 0;
     // testa a variável é FALSE
@@ -74,13 +77,13 @@ um valor booleano quanto um inteiro, podemos utilizar as seguintes comparações
 
     // testa se a variável é um FALSE e do tipo boolean
     if ($e === FALSE) {
-    echo '$e é FALSE e do tipo boolean'
+    echo '$e é FALSE e do tipo boolean';
     }
 
     // testa se $e é igual a zero e do mesmo tipo que zero
     if ($e === 0) {
     echo '$e é zero mesmo';
     }
-
+```
 #### Resultado:
 Se é falso $e é zero mesmo    
