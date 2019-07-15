@@ -85,5 +85,5 @@ um valor booleano quanto um inteiro, podemos utilizar as seguintes comparações
        echo '$e é zero mesmo';
     }
 ```
-#### Resultado:
+### Resultado:
 Se é falso $e é zero mesmo    
