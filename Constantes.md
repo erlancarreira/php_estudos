@@ -7,7 +7,7 @@ e string) ou arrays. As regras de nomenclatura de constantes são as mesmas regr
 das variáveis, exceto pelo fato de as constantes não serem precedidas pelo sinal
 de cifrão (`$`) e geralmente utilizarem nomes em letras maiúsculas.
      
-    MÁXIMO_CLIENTES // exemplo de constante
+    MAXIMO_CLIENTES // exemplo de constante
 
 Você pode definir uma constante utilizando a função `define()`. Quando uma constante
 é definida, ela não pode mais ser modificada ou anulada. Exemplo:
@@ -19,4 +19,4 @@ Você pode definir uma constante utilizando a função `define()`. Quando uma co
 ##### Resultado:
     100
 
-           
+
