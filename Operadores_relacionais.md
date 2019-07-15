@@ -16,19 +16,19 @@ Comparadores | Descrição
 Veja a seguir alguns testes lógicos e seus respectivos resultados. No primeiro caso,
 vemos a utilização errada do operador de atribuição = para realizar uma comparação;
 o operador sempre retorna o valor atribuído.
-     
+```php       
     <?php 
     if ($a = 5) {
     echo 'essa operação 5 é à variável $a';
     }
-
-#### Resultado:
-**essa operação atribui 5 à variável $a**
+```
+### Resultado:
+essa operação atribui 5 à variável $a
 ___
 
 No exemplo a seguir, declaramos duas variáveis, uma integer e outra string. 
 Neste caso, vemos a utilização dos operadores de comparação == e !=.
-
+```php  
     <?php
     $a = 1234;
     $b = '1234';
@@ -40,14 +40,14 @@ Neste caso, vemos a utilização dos operadores de comparação == e !=.
     else if ($a != $b) {
     echo '$a e $b são diferentes';
     }
-
-#### Resultado:
+```
+### Resultado:
 $a e $b são iguais
 ___
 
 No próximo caso, além da comparação entre as variáveis, comparamos também
 os tipos de dados das variáveis.
-    
+```php       
     <?php
     $c = 1234;
     $d = '1234';
@@ -59,8 +59,8 @@ os tipos de dados das variáveis.
 
     if ($c !== $d) {
     echo '$c e $d são de tipos diferentes';
-    
-#### Resultado: 
+```    
+### Resultado: 
 $c e $d são de tipos diferentes
 ___
 
