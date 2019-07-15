@@ -19,7 +19,7 @@ o operador sempre retorna o valor atribuído.
 ```php       
     <?php 
     if ($a = 5) {
-    echo 'essa operação 5 é à variável $a';
+       echo 'essa operação 5 é à variável $a';
     }
 ```
 ### Resultado:
@@ -34,11 +34,11 @@ Neste caso, vemos a utilização dos operadores de comparação == e !=.
     $b = '1234';
 
     if ($a == $b) {
-    echo '$a e $b são iguais';
+       echo '$a e $b são iguais';
     }
 
     else if ($a != $b) {
-    echo '$a e $b são diferentes';
+       echo '$a e $b são diferentes';
     }
 ```
 ### Resultado:
@@ -53,12 +53,12 @@ os tipos de dados das variáveis.
     $d = '1234';
 
     if ($c === $d) {
-    echo '$c e $d são iguais e do mesmo tipo';
+       echo '$c e $d são iguais e do mesmo tipo';
     }
 
 
     if ($c !== $d) {
-    echo '$c e $d são de tipos diferentes';
+       echo '$c e $d são de tipos diferentes';
 ```    
 ### Resultado: 
 $c e $d são de tipos diferentes
