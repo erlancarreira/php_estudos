@@ -1,12 +1,12 @@
 # Operadores de atribuição
 
-Um operador de atribuição é usado para definir o valor de uma variável. O operador 
-o operador básico de atribuição é =, mas outros operadores podem ser utilizados. 
+Um operador de atribuição é usado para definir o valor de uma variável. O operador
+básico de atribuição é =, mas outros operadores podem ser utilizados. 
 
     <?php 
-    $var = 100;
-    print += 5; // Soma 5 em $var;
-    print -= 5; // Subtrai 5 em $var;
+    $var   = 100;
+    $var  += 5; // Soma 5 em $var;
+    $var  -= 5; // Subtrai 5 em $var;
     $var  *= 5; // Multiplica $var por 5
     $var  /= 5; // Divide $var por 5
     print $var; // Resultado: 100
