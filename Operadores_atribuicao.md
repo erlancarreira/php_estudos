@@ -12,6 +12,7 @@ o operador básico de atribuição é =, mas outros operadores podem ser utiliza
     print $var; // Resultado: 100
 
 Operadores | Descrição
+---------- | --------
 ++$var     | Pré-incremento. Incrementa $a em e, então, retorna $a.
 $var++     | Pós-incremento. Retorna $a e, então, incrementa $a em um.
 --$var     | Pré-decremento. Decrementa $a em um e, então, retorna $a.  
