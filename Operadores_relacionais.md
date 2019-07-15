@@ -72,17 +72,17 @@ um valor booleano quanto um inteiro, podemos utilizar as seguintes comparações
     $e = 0;
     // testa a variável é FALSE
     if ($e == FALSE) {
-    echo '$e é falso';
+       echo '$e é falso';
     }
 
     // testa se a variável é um FALSE e do tipo boolean
     if ($e === FALSE) {
-    echo '$e é FALSE e do tipo boolean';
+       echo '$e é FALSE e do tipo boolean';
     }
 
     // testa se $e é igual a zero e do mesmo tipo que zero
     if ($e === 0) {
-    echo '$e é zero mesmo';
+       echo '$e é zero mesmo';
     }
 ```
 #### Resultado:
