@@ -16,7 +16,7 @@ Operador    | Descrição
 
 No programa a seguir, se as variáveis `$vai_chover` e `$esta_frio` forem verdadeiras ao
 mesmo tempo, será impresso no console "Não vou sair de casa".
-
+```php
     <?php 
     $vai_chover = TRUE;
     $esta_frio  = TRUE;
@@ -24,7 +24,7 @@ mesmo tempo, será impresso no console "Não vou sair de casa".
     if ($vai_chover and $esta_frio) {
     	"Não vou sair de casa";
     }
-
+```
 ### Resultado:
 Não vou sair de casa.
 ___
