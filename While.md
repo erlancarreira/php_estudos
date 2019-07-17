@@ -1,7 +1,7 @@
 # WHILE
 
 O **WHILE** é uma estrutura de controle similar ao **IF**. De maneira similar, tem uma
-condição para executar um bloco de comandos. A diferença primodial é que o 
+condição para executar um bloco de comandos. A diferença primordial é que o 
 **WHILE** estabelece um laço de repetição, ou seja, o bloco de comandos será
 executado de modo repetitivo enquanto a condição de entrada dada pela expressão
 for verdadeira. Esse comando pode ser interpretado como

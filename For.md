@@ -13,7 +13,7 @@ de comandos será executado um certo número de vezes.
 ```
 
 Parâmetros | Descrição
-----------   ---------
+---------- | ---------
 expres1    | Valor inicial da variável contadora.
 expres2    | Condição de execução. Enquanto **TRUE** o bloco de comandos será executado.
 expres3    | Valor ser incrementado após cada execução.
