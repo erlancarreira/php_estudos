@@ -41,6 +41,6 @@ será impresso no console "Vou pensar duas vezes antes de sair".
     }
 ```
 
-**Resultado**
+###Resultado:
 
 Vou pensar duas vezes antes de sair
