@@ -12,7 +12,7 @@ request; na posição `SCRIPT_FILENAME`, há o caminho do script sendo
 executado no servidor.
 
 - `$_GET` - Contém um vetor com as variáveis informadas em uma requisição `$_GET`.
-Por exemplo, a requisição `http://localhost/sample.php?name=john&age20 retorna` 
+Por exemplo, a requisição `http://localhost/sample.php?name=john&age20` retorna 
 um vetor com as posições `john e age`, contendo os respectivos valores.
 
 - `$_POST` - Funciona da mesma maneira que `$_GET`, mas contém as informações

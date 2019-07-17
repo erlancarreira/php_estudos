@@ -59,6 +59,7 @@ padrão do PHP é retornar TRUE sempre que a variável tiver conteúdo válido.
 
 ### Resultado:
 $a tem conteúdo
+___
 
 **Observação:** atualmente, se o PHP estiver com o nível de erro NOTICE ligada,
 o teste if ($b) emitirá a mensagem de erro "Notice: Undefined variable: b".
@@ -101,6 +102,7 @@ desnecessário.
 
 parabéns, você foi promovido
 parabéns, você foi promovido
+___
 
 O PHP nos oferece facilidades quando desejamos executar tarefas simples, 
 como realizar uma atribuição condicional a uma variável. A seguir você confere
