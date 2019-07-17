@@ -86,4 +86,4 @@ um valor booleano quanto um inteiro, podemos utilizar as seguintes comparações
     }
 ```
 ### Resultado:
-Se é falso $e é zero mesmo    
+$e é falso   $e é zero mesmo    
